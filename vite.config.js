@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "/youtube-react/",
+  base: "/youtube-react/",
   plugins: [react()],
   
 })
