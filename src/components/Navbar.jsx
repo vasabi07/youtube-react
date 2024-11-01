@@ -44,7 +44,7 @@ const Navbar = () => {
     fetchingSearch();
   }, [searchTerm]);
   return (
-    <div className=" grid grid-flow-col p-4 border-b-2 border-slate-400">
+    <div className=" grid grid-flow-col p-4 shadow-md border-slate-400">
       <div className="h-10 flex grid-cols-1">
         <img
           className="cursor-pointer bg-gray-300 rounded-lg mr-2"

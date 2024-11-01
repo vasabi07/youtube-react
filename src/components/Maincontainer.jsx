@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const MainContainer = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
   return (
-    <div className="bg-slate-900 text-stone-300 min-h-screen">
+    <div className="bg-stone-100 text-stone-800 min-h-screen">
       <Navbar />
       <div className="flex h-full">
         {isMenuOpen && <Sidebar />}
